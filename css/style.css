@@ -1,0 +1,236 @@
+*{
+   margin:0; 
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   
+   
+}
+
+.navbar-nav{
+    margin-top: 50px;
+    font-size: 20px;
+    color: #2980B9;
+    font-family: tahoma;
+    
+}
+.navbar-toggle {
+    background-color: #2980B9;
+    margin-top: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+/* start header*/
+.header{
+    height: 600px;
+    background:url('../img/r1_03.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header .overlay{
+   /* background-color: rgba(#296C98,0.6);*/
+    background-color:#296C98 ;
+    opacity:.6;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.header .cont img{
+    padding-top: 55px;
+    position: relative;
+    
+    z-index: 4;
+}
+.header .cont button{
+    margin-top: 20px;
+    font-size: 20px;
+    color:white ;
+     position: relative;
+     z-index: 4;
+}
+
+iframe{
+            visibility: hidden;
+            width: 70%;
+            margin: 0 auto;
+            min-height: 500px;
+            border-radius: 50px;
+            display: block;
+            box-shadow: 10px 10px 10px gray;
+            border-style: none;
+            margin-top: -350px;
+             position: relative;
+     z-index: 4;
+}
+/* end header*/
+/* start about us */
+.aboutus{
+    
+    
+}
+.aboutus h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 0;
+    border-bottom: 2px #337AB7 transparent;
+}
+.aboutus .para{
+    font-size: 18px;
+    position: static;
+    
+    
+}
+.aboutus .para h3{
+    font-size:30px;
+    font-family: tahoma;
+}
+.aboutus .para p{
+    
+}
+.special{
+    position: relative;
+}
+.special:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 595px;
+    width: 50px;
+    border-bottom: 2px solid black;
+    
+}
+.aboutus .img1 img{
+    
+}
+/* end about us */
+/* start ours*/
+.srh{
+    height: 100px;
+    margin-top: 350px;
+    background-color: green;
+}
+
+.ours{
+    
+    
+}
+.ours h3{
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 0;
+    background-color: #2980B9;
+    color:#D5E2EE;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.ours .type{
+    height: 100px;
+    background-color: #E9E9E9;
+}
+.ours .choose{
+    line-height:100px ;
+    overflow: hidden;
+    
+}
+.ours .choose button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: medium 20px;
+    text-align: justify;
+}
+.ours .choose button span{
+  float: left;
+  
+}
+.groupimg .imgs{
+  margin-top: 30px;
+    
+
+}
+.ours .mor{
+    
+    margin-top: 30px;
+    
+}
+#Containe .mix{
+	display: none;
+}
+
+/* end ours*/
+
+/* start ask*/
+.ask{
+    
+    
+}
+.ask h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.ask p{
+
+
+}
+
+
+/* end ask*/
+
+/* start contact*/
+.contact-us{
+      background:url(../img/Rasma_02.png);
+    -webkit-bacground-size:cover;
+    -moz-bacground-size:cover;
+    -o-bacground-size:cover;
+   -bacground-size:cover;
+    min-height: 300px;
+    z-index: -1;
+
+   
+}
+.contact-us .fields{
+    
+    
+    padding-top: 60px;
+    padding-bottom: 40px;
+    min-height: 300px;
+    
+    
+}
+.contact-us form{
+    
+}
+.contact-us form label{
+    color: white;
+}
+.contact-us form label span{
+    color: #F86666;
+}
+.contact-us form textarea{
+    
+}
+/*end contact*/
+
+/*start footer*/
+.footer{
+    height: 50px;
+    background-color: #267AB1;
+    text-autospace: none;
+    color: white;
+}
+.footer p{
+   line-height: inherit;
+   height: 0;
+   line-height: 50px;
+   
+}
+/*end footer*/
